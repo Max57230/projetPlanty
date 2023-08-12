@@ -145,3 +145,7 @@ div.wpforms-container-full .wpforms-field-label{
 .moins p{
     margin: 0px;
 }
+
+#bouton_ok {
+    width: 150px;
+}
