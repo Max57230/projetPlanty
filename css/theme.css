@@ -1,0 +1,84 @@
+body { 
+    font-family: 'Syne' !important; 
+
+    margin: 0 auto!important;
+  }
+
+  #main {
+    display: flex!important;
+ 
+  }
+
+
+/*  header */
+
+li
+:hover{
+    background-color: #DC9F96;
+    color: white;
+}
+
+#site-logo #site-logo-inner{
+    padding: 31px 0px 30px 37px;
+}
+
+
+
+/* footer */
+
+#site-footer 
+    {text-align: center;
+    padding: 20px;
+    }
+
+
+
+/* formulaire nous rencontrer*/  
+
+.formp{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.formback{
+    background-color: white;
+    border-radius: 7px;
+    width: 383px;
+}
+
+.form-rencontrer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bouton-form{
+    max-width: 198px;
+    border-radius: 5px;
+    background-color: #E0B9B4;
+}
+
+/* formulaire commande */
+
+#wpforms-submit-143{
+    background-color: #E0B9B4;
+    width: 191px;
+}
+
+.wpforms-submit-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div.wpforms-container-full .wpforms-field-label{
+    color: white;
+}
+
+.wpforms-container .wpforms-submit-container{
+    margin-right: 150px;
+}
+
