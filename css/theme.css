@@ -62,24 +62,90 @@ li
 
 /* formulaire commande */
 
-#wpforms-submit-143{
-    background-color: #E0B9B4;
-    width: 191px;
+.form-complet{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
 }
 
-.wpforms-submit-container{
+.informartions{
+    width: 50%;
+}
+
+.livraison{
+    width: 50%;
+}
+
+.infoformulaire{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.formulaireaffix{
+    color: white;
+    font-size: 20px;
+    gap: 25px;
+}
+
+#nomformulaire{
+    background-color: white;
+    height: 67px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+#prenomformulaire{
+    background-color: white;
+    height: 67px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+#mailformulaire{
+    background-color: white;
+    height: 67px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+#adresseformulaire{
+    background-color: white;
+    height: 67px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+#codeformulaire{
+    background-color: white;
+    height: 67px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+#villeformulaire{
+    background-color: white;
+    height: 67px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.boutonform{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 25px;
 }
 
+#boutonformulaire{
+    width: 198px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: #E0B9B4;
 
-div.wpforms-container-full .wpforms-field-label{
-    color: white;
-}
 
-.wpforms-container .wpforms-submit-container{
-    margin-right: 150px;
 }
 
 /* bouton page commander */
@@ -149,3 +215,4 @@ div.wpforms-container-full .wpforms-field-label{
 #bouton_ok {
     width: 150px;
 }
+
