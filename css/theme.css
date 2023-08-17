@@ -216,9 +216,13 @@ li
 }
 
 
-/* image de bouton commander */
+/* séparateur commander */
 
 
+.separateur1{
+    border: solid 1px white;
+    height: 430px;
+}
 
 /* responsiv tablette */
 
@@ -233,6 +237,12 @@ li
         width: 100%;
 
     }
+
+    #imagecommande1{
+
+        width: 100%;
+        max-width: none;
+    }
     
     #image_commande_2 {
         width: 100%;
@@ -241,7 +251,7 @@ li
     #imagecommande2{
 
         width: 100%;
-        max-width: 700px;
+        max-width: none;
     }
 
     #imagecommande2 > div{
@@ -256,7 +266,7 @@ li
     #imagecommande3{
 
         width: 100%;
-        max-width: 700px;
+        max-width: none;
     }
 
     #imagecommande3 > div{
@@ -271,7 +281,7 @@ li
     #imagecommande4{
 
         width: 100%;
-        max-width: 700px;
+        max-width: none;
     }
 
     #imagecommande4 > div{
@@ -283,6 +293,18 @@ li
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .infoformulaire{
+        font-size: 18px;
+    }
+
+    .bouton-nombre{
+        width: 100px;
+    }
+
+    .contient-plus-moins{
+        width: 60px;
     }
 }
 
@@ -359,5 +381,11 @@ li
         justify-content: center;
         width: 130px;
     }
+
+    .separateur1{
+        height: 1px;
+        width: 65%;
+    }
+
 }
 
