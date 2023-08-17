@@ -9,7 +9,7 @@
 
 	</main><!-- #main -->
 		<footer id="site-footer" >
-				<a src="http://planty.local/"> Mentions légales
+				<a href="http://planty.local"> Mentions légales </a>
 		</footer>
 
 		<?php wp_footer(); ?>

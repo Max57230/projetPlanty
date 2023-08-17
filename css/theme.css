@@ -6,9 +6,11 @@ body {
 
   #main {
     display: flex!important;
+    display: flex!important;
+ 
+    display: flex!important; 
  
   }
-
 
 /*  header */
 
@@ -213,14 +215,77 @@ li
     width: 150px;
 }
 
+
+/* image de bouton commander */
+
+
+
 /* responsiv tablette */
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 
+    #imagecommande > div{
+        display: flex;
+        flex-direction: column;
+    }
 
+    #image_commande_1{
+        width: 100%;
 
+    }
+    
+    #image_commande_2 {
+        width: 100%;
+    }
 
+    #imagecommande2{
 
+        width: 100%;
+        max-width: 700px;
+        margin-bottom: none;
+    }
 
+    #imagecommande2 > div{
+        width: 100%;
+        height: 156px;
+    }
+
+    #image_commande_3 {
+        width: 100%;
+    }
+
+    #imagecommande3{
+
+        width: 100%;
+        max-width: 700px;
+    }
+
+    #imagecommande3 > div{
+        width: 100%;
+        height: 156px;
+    }
+
+    #image_commande_4 {
+        width: 100%;
+    }
+
+    #imagecommande4{
+
+        width: 100%;
+        max-width: 700px;
+    }
+
+    #imagecommande4 > div{
+        width: 100%;
+        height: 156px;
+    }
+
+    #titre_commander{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 
 
@@ -228,21 +293,40 @@ li
 
 @media only screen and (max-width: 767px) {
 
+    #titre_commander{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     /* bouton page commande */
+
+
+    .bouton-entier{
+        width: 100%;
+    }
+
+    .bouton-nombre{
+        width: 110px;
+    }
 
     #bouton_commande_1{
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: 10px;
+        
     }
+    
 
     #bouton_commande_2{
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: 10px;
+        
     }
+
 
     #bouton_commande_3{
         display: flex;
@@ -277,5 +361,4 @@ li
         width: 130px;
     }
 }
-
 
